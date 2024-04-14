@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/output.css">
+    <script src="https://kit.fontawesome.com/7145c63359.js" crossorigin="anonymous"></script>
+    <title>New Tabacaria</title>
+</head>
+
+<body>
+    <!--Header do projeto-->
+    <header class="w-full h-[440px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img src="./imgs/tabacariaimg1.jpg" alt="Imagem inlustrativa de cabeçalho"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200">
+            <h1 class="text-4xl mt-4 mb-10 font-bold text-white">New Tabacaria</h1>
+            <span class="text-white ">Av:Seridó Número:1234 Centro-Caicó</span>
+            <div class="bg-red-500 px-4 py-1 mt-5 rounded-lg" id="spanHora">
+                <span class="text-white font-medium">De Segunda a Sábado das 7:00 as 17:00hs</span>
+            </div>
+        </div>
+    </header>
+    <!--Fim do Header-->
+    <h2 class="text-2xl sm:text-4xl md:text-5xl mt-9 mb-10 text-center font-bold "> Conheça Nossa Vitrine</h2>
+    <!--Inicio do menu-->
+    <div id="menu" class="">
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-4 mb-16">
+            <!--Produtos-->
+            <div class="flex gap-2">
+                <img src="./imgs/ceda1.webp" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">Ceda Smoking Tradicional</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$:30.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="Ceda Tradicional" data-price="30.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim dos Produtos-->
+
+            <!--Produtos-->
+            <div class="flex gap-2">
+                <img src="./imgs/ceda2.webp" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">Ceda Smoking- BROWN KING ZINE</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:50.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="Ceda KINKG ZINE" data-price="50.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim dos Produtos-->
+
+            <!--Produtos-->
+            <div class="flex gap-2">
+                <img src="./imgs/ceda3.webp" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">Ceda Smoking- DE LUXE KING ZINE</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:60.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="DELUXE KING ZINE" data-price="60.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim dos Produtos-->
+            <!--Produtos-->
+            <div class="flex gap-2">
+                <img src="./imgs/ceda4.jpg" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">Ceda Smoking- MASTER</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:72.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="MASTER" data-price="72.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim dos Produtos-->
+            <!--Produtos-->
+            <div class="flex gap-2">
+                <img src="./imgs/ceda5.webp" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">Ceda Smoking- BROWN ZINE</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:48.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="BROEM ZINE" data-price="48.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim dos Produtos-->
+            <!--Produtos-->
+            <div class="flex gap-2">
+                <img src="./imgs/ceda6.webp" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">Ceda Smoking- SMOKE SPACE</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:90.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="Smoke SPACE" data-price="90.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim dos Produtos-->
+
+        </main>
+        <!-- items da livraria-->
+        <div class="mx-auto max-w-7xl px-2 my-4">
+            <h2 class="text-2xl sm:text-4xl md:text-5xl mt-9 mb-10 text-center font-bold">Vitrine de Livros</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-4 mb-16" id="menu">
+            <div class="flex gap-2">
+                <img src="./imgs/livro1.jpg" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">Café com Deus Pai</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:60.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="café com Deus Pai" data-price="60.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--fim do livro-->
+
+
+            <div class="flex gap-2">
+                <img src="./imgs/livro2.jpg" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">O poder da AÇÂO</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:55.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="O poder da Ação" data-price="55.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--fim do livro-->
+
+
+            <div class="flex gap-2">
+                <img src="./imgs/livro3.jpg" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">Especialista em Pessoas</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:52.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="Especialista em Pessoas" data-price="52.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--fim do livro-->
+
+
+
+            <div class="flex gap-2">
+                <img src="./imgs/livro4.webp" alt="imagem inlustrativa"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300">
+
+
+                <div>
+                    <p class="font-bold">O Morro dos Ventos Uivantes</p>
+                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-4">
+                        <p class="font-bold text-lg">R$:59.00</p>
+                        <button class="px-5 rounded add-td-card-btn" data-name="Morro dos ventos uirvantes" data-price="59.00">
+                            <i class="fa-solid fa-cart-shopping text-gray-700"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--fim do livro-->
+
+        </div>
+
+
+
+    </div>
+    <!--Modal cart-->
+    <div id="cart-modal" class="w-full h-full bg-black/70 fixed top-0 left-0 z-[99] items-center justify-center hidden duration-300">
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+                <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+                    <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+                    <p class="font-bold mt-4">Endereço de Entrega</p>
+                    <input 
+                    type="text"
+                    placeholder="Digite Seu Endereço Completo..."
+                    id="cart-endereço"
+                    class="w-full border-2 p-3 rounded-2 my-1 mt-2">
+                    <p class="text-red-600 hidden" id="endereço-errado">Digite seu Endereço completo</p>
+                    
+
+                    <div class="flex items-center justify-between mt-4 w-full">
+                        <button id="close-modal-btn">Fechar</button>
+                        <button id="finalizar-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+    <!--Fim do Modal cart-->
+
+    <!--botão card footer-->
+    <footer class="w-full bg-red-500 py-3 fixed bottom-0 flex items-center justify-center">
+        <button class="flex items-center gap-2 text-white" id="cart-btn">
+            (<span id="cart-count">0</span>) Ver Carrinho
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+    </footer>
+    <!-- Fim do botão card footer-->
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
