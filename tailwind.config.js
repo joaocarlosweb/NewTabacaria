@@ -7,7 +7,7 @@ module.exports = {
         'sans':['poppins','sans-serif']
       },
       backgroundImage:{
-        "home":"url('/imgs/capa.png')"
+        "home":"url('/imgs/tabacariaimg1.jpg')"
       }
     },
   },
