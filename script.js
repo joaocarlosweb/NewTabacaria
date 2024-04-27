@@ -129,7 +129,7 @@ finalizarPedido.addEventListener("click", function (){
     //Enviando pedido para API WhatsApp//
     const mensagemDoPedido = lista.map(item=>{
         return(
-            `${item.name} QUANTIDADE:(${item.quantidade}) Preço do Produto:R$${item.price} |`
+            `${item.name} QUANTIDADE:(${item.quantidade}) Preço do Produto:R$${item.price} --->`
             
         )
         
